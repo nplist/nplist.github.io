@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white; /* Dark navy blue */
+    background-color: white; /* Change to desired background color */
     color: black;
 }
 
 h2 {
-    color: black; /* Bright yellow/gold */
+    color: black; /* Change to desired header color */
 }
 
 #container {
@@ -15,7 +15,7 @@ h2 {
 }
 
 #editSection {
-    border: 5px solid black; /* Thick gold border */
+    border: 5px solid black; /* Thick border */
     padding: 20px;
     background-color: white;
 }
@@ -28,24 +28,24 @@ table {
 
 th, td {
     padding: 10px;
-    border: 3px solid black; /* Thick gold border for tables */
+    border: 3px solid black; /* Thick border for tables */
 }
 
 th {
-    background-color: black; /* Gold/yellow */
-    color: white; /* Black text for contrast */
+    background-color: black; /* Table header color */
+    color: white; /* Table header text color */
 }
 
 td {
-    background-color: white; /* Navy blue for the background */
-    color: black; /* White text for contrast */
+    background-color: white; /* Table body color */
+    color: black; /* Table body text color */
 }
 
 button {
     margin: 10px;
     padding: 10px;
-    background-color: black; /* Gold/yellow for bold buttons */
-    color: white; /* Black text */
+    background-color: black; /* Button color */
+    color: white; /* Button text color */
     border: none;
     cursor: pointer;
 }
@@ -56,5 +56,5 @@ button:disabled {
 }
 
 button:hover:not(:disabled) {
-    background-color: black; /* Slightly darker yellow on hover */
+    background-color: #333; /* Darker on hover */
 }

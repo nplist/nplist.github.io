@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave Negative or Positive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Table Section -->
+        <div id="tableSection">
+            <h2>Positive</h2>
+            <table id="positiveTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Enter Name" readonly></td>
+                        <td><input type="number" placeholder="Enter Number" readonly></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Negative</h2>
+            <table id="negativeTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Enter Name" readonly></td>
+                        <td><input type="number" placeholder="Enter Number" readonly></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Edit Section -->
+        <div id="editSection">
+            <h2>Developer / Dev Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter Username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Password"><br><br>
+            <button id="loginBtn">Login</button>
+            <p id="loginMessage" style="color:red;"></p>
+            <br>
+            <button id="addPositive" disabled>Add to Positive</button>
+            <button id="removePositive" disabled>Remove from Positive</button>
+            <button id="addNegative" disabled>Add to Negative</button>
+            <button id="removeNegative" disabled>Remove from Negative</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
